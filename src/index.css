@@ -24,7 +24,9 @@ align-items: center;
   display: flex;
 flex-direction: column;
 align-items: center;
+
 }
+
 
 input{
   padding:2%;
@@ -34,4 +36,27 @@ input{
   margin-left: 20%;
   padding:2%;
   
+}
+
+.team-container{
+  border: 2px solid black;
+  padding: 3%;
+  width:50%;
+  background-color: whitesmoke;
+  margin: 1%;
+  border-radius: 5px;
+  
+}
+
+button{
+  padding:4%;
+  background-color: steelblue;
+  border-radius: 10px;
+  color:white;
+  font-size: 20px;
+}
+
+input{
+  background-color:white;
+  border-radius: 10px;
 }

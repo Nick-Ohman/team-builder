@@ -67,6 +67,7 @@ function App() {
       fName: formValues.fName,
       lName: formValues.lName,
       email: formValues.email,
+    
     }
 
     setTeams([...teams, newTeam])

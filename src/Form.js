@@ -40,6 +40,13 @@ function Form(props) {
                             type='text'
                         /></label>
                 </div><br></br>
+                <label>Role:&nbsp;
+                    <select name='Role'
+                    >
+                        <option value="frontend">Front End</option>
+                        <option value="backend">Back End</option>
+                        <option value="ds">DS</option>
+                    </select></label>
 
 
                 <button onClick={onSubmit}>submit</button>
