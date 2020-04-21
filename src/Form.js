@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form(props) {
 
-    const{
+    const {
         values,
         onInputChange,
         onCheckboxChange,
@@ -13,28 +13,36 @@ function Form(props) {
         <div>
             <form className='team2'>
                 <h2>Friend Form</h2>
-                <label>First Name:&nbsp;
+                <div className='form'>
+                    <label>First Name:&nbsp;
                     <input
-                        value={values.fName}
-                        onChange={onInputChange}
-                        name='fName'
-                        type='text'
-                    /></label>
-                <label>Last Name:&nbsp;
+                            value={values.fName}
+                            onChange={onInputChange}
+                            name='fName'
+                            type='text'
+                        /></label>
+                </div>
+                <div className='form'>
+                    <label>Last Name:&nbsp;
                     <input
-                        value={values.lName}
-                        onChange={onInputChange}
-                        name='lName'
-                        type='text'
-                    /></label>
-                <label>Email:&nbsp;
+                            value={values.lName}
+                            onChange={onInputChange}
+                            name='lName'
+                            type='text'
+                        /></label>
+                </div>
+                <div className='form'>
+                    <label>Email:&nbsp;
                     <input
-                        value={values.email}
-                        onChange={onInputChange}
-                        name='email'
-                        type='text'
-                    /></label>
-                    <button onClick={onSubmit}>submit</button>
+                            value={values.email}
+                            onChange={onInputChange}
+                            name='email'
+                            type='text'
+                        /></label>
+                </div><br></br>
+
+
+                <button onClick={onSubmit}>submit</button>
             </form>
         </div >
 

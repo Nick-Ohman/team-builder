@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: skyblue;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.team2{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+input{
+  padding:2%;
+}
+
+.form{
+  margin-left: 20%;
+  padding:2%;
+  
 }
