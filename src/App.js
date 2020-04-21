@@ -9,7 +9,7 @@ import './App.css';
 const initialTeamList = [
   {
     id: uuid(),
-    fName: 'Michael',
+    fName: 'Super',
     lName: 'Quinn',
     email: 'mq@mq.com',
 
