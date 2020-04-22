@@ -12,6 +12,7 @@ const initialTeamList = [
     fName: 'Super',
     lName: 'mario',
     email: 'mario@nintendo.com',
+    role: 'Front End',
 
   },
   
@@ -20,6 +21,7 @@ const initalFormValues = {
   fName: '',
   lName: '',
   email: '',
+  role: 'Front End',
 }
 
 function App() {
@@ -67,9 +69,11 @@ function App() {
       fName: formValues.fName,
       lName: formValues.lName,
       email: formValues.email,
+      role: formValues.role,
+
     
     }
-
+    console.log('this is new team', newTeam)
     setTeams([...teams, newTeam])
 
     setFormValues(initalFormValues)

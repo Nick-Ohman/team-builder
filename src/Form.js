@@ -41,11 +41,13 @@ function Form(props) {
                         /></label>
                 </div><br></br>
                 <label>Role:&nbsp;
-                    <select name='Role'
-                    >
-                        <option value="frontend">Front End</option>
-                        <option value="backend">Back End</option>
-                        <option value="ds">DS</option>
+                    <select 
+                    name='role'
+                    value={values.role}
+                    onChange={onInputChange}>
+                        <option value="Front End">Front End</option>
+                        <option value="Back End">Back End</option>
+                        <option value="DS">DS</option>
                     </select></label>
 
 
