@@ -10,8 +10,8 @@ const initialTeamList = [
   {
     id: uuid(),
     fName: 'Super',
-    lName: 'Quinn',
-    email: 'mq@mq.com',
+    lName: 'mario',
+    email: 'mario@nintendo.com',
 
   },
   
