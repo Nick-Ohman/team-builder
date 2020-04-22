@@ -40,6 +40,7 @@ function Form(props) {
                             type='text'
                         /></label>
                 </div><br></br>
+                <div className="dropdown">
                 <label>Role:&nbsp;
                     <select 
                     name='role'
@@ -49,7 +50,7 @@ function Form(props) {
                         <option value="Back End">Back End</option>
                         <option value="DS">DS</option>
                     </select></label>
-
+                    </div>
 
                 <button onClick={onSubmit}>submit</button>
             </form>
